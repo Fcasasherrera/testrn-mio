@@ -3,7 +3,7 @@ import React from 'react';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'; // Added Image import
 
 type UserCardProps = {
-  item: any
+  item: User
   setSelectedUser: React.Dispatch<React.SetStateAction<User | null>>
 }
 
