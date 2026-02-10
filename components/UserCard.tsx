@@ -14,7 +14,7 @@ const UserCard: React.FC<UserCardProps> = ({ item, setSelectedUser }) => {
       onPress={() => setSelectedUser(item)}
     >
       <Image
-        source={{ uri: `https://picsum.photos/200/300?random=${Math.random()}` }}
+        source={{ uri: item.image }}
         style={styles.avatar}
       />
       <View>

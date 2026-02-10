@@ -29,12 +29,22 @@ export const styles = StyleSheet.create({
     modal: {
       flex: 1,
       justifyContent: 'center',
+      alignItems: 'center',
       padding: 24,
     },
     title: {
       fontSize: 20,
       fontWeight: 'bold',
       marginBottom: 12,
+    },
+    button: {
+      width: '60%',
+      marginTop: 20,
+      padding: 10,
+      borderWidth: 1,
+      borderColor: 'blue',
+      borderRadius: 8,
+      alignItems: 'center',
     },
   })
   
